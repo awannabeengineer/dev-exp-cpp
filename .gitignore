@@ -1,6 +1,6 @@
-.cache/
-build/
-vcpkg/
-vcpkg_installed/
+/.cache
+/build
+/vcpkg
+/vcpkg_installed
 *.log
-assets/
+/assets
