@@ -1,8 +1,12 @@
 {
-    "name": "dev-exp-cpp",
-    "version-string": "0.1.0",
-    "dependencies": [
-        "fmt",
-        "opencv4"
-    ]
+  "name": "dev-exp-cpp",
+  "version-string": "0.1.0",
+  "dependencies": [
+    {
+      "name": "opencv4",
+      "features": ["contrib", "ffmpeg", "png"],
+      "default-features": true
+    },
+    "fmt"
+  ]
 }

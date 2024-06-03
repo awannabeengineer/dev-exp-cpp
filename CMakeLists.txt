@@ -1,5 +1,12 @@
 cmake_minimum_required(VERSION 3.10)
 
+# dynamic
+set(VCPKG_TARGET_ARCHITECTURE x64)
+set(VCPKG_CRT_LINKAGE dynamic)
+set(VCPKG_LIBRARY_LINKAGE dynamic) # <------------- static to dynamic (.so)
+
+set(VCPKG_CMAKE_SYSTEM_NAME Linux)
+
 # Set the project name
 project(dev-exp-cpp VERSION 0.1.0)
 

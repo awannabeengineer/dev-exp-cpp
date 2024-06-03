@@ -3,3 +3,4 @@ build/
 vcpkg/
 vcpkg_installed/
 *.log
+assets/
