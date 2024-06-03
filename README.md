@@ -31,3 +31,6 @@ git clone https://github.com/microsoft/vcpkg
 ./vcpkg/bootstrap-vcpkg.sh -disableMetrics
 ./build.sh
 ```
+
+[ ] - use CMakePresets.json to configure builds (remove build script after)
+[ ] - add github workflow to produce builds for linux
